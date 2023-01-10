@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sld>
+  <accelerator name="conv2dLB_cxx" desc="Accelerator CONV2D_LB [C++]" data_size="4" device_id="058" hls_tool="catapult_hls_cxx">
+    <param name="batch" desc="batch" />
+    <param name="n_w" desc="n_w" />
+    <param name="n_h" desc="n_h" />
+    <param name="n_c" desc="n_c" />
+    <param name="kern" desc="kern" />
+    <param name="filt" desc="filt" />
+    <param name="same" desc="same" />
+    <param name="stride" desc="stride" />
+  </accelerator>
+</sld>
